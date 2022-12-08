@@ -1,7 +1,6 @@
 #include <stdio.h>
 
 /**
- * Must out this: Programming is like building a multilingual puzzle
  * main - prints out a string via puts
  * Description: Program that prints out the string s followed by a new line
  * Return: int 0 when done and no errors
