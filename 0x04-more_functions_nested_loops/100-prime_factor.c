@@ -2,7 +2,7 @@
 #include <math.h>
 /**
  * main - prime numbers
- *
+ * Description: with out lib
  * Return: Always 0.
  */
 int main(void)
@@ -11,15 +11,19 @@ unsigned long i = 2;
 unsigned long biggest = 0;
 unsigned long number = 612852475143;
 
-while (number > i)/* B */
+while (number > i)
 {
-	while (number % i == 0)/* C */
+	while (number % i == 0)
 	{
 																if (i > biggest)															biggest = i;
 																number = number / i;	
 	}
-i++;/* D */
+i++;
+
 }
+
 printf("%lu\n", biggest);
+
 return (0);
+
 }
