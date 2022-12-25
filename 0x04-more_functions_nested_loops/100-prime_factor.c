@@ -19,6 +19,6 @@ while (1)
 	}
 	a--;
 }
-
+printf("\n");
 return (0);
 }
