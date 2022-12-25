@@ -7,22 +7,19 @@
  */
 int main(void)
 {
-unsigned long i = 2;
-unsigned long biggest = 0;
-unsigned long number = 612852475143;
 
-while (number > i)
+unsigned int long n = 612852475143, a = (int) sqrt(n);
+
+while (1)
 {
-	while (number % i == 0)
+
+	if (n % a == 0)
 	{
-																if (i > biggest)															biggest = i;
-																number = number / i;	
+		printf("%lu \n", n / a);
+		break;
 	}
-i++;
-
+	a--;
 }
-
-printf("%lu\n", biggest);
 
 return (0);
 
